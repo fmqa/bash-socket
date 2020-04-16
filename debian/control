@@ -1,0 +1,13 @@
+Source: bash-ext-socket
+Priority: optional
+Maintainer: Fadi Moukayed <fadi.moukayed@rohde-schwarz.com>
+Build-Depends: debhelper-compat (= 11), cmake, bash-builtins
+Standards-Version: 4.1.2
+Section: shells
+
+Package: bash-ext-socket
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: BASH socket accept(3) extension
+ This C extension provides an "accept"-builtin function, allowing BASH program to utilize socket file handles.
