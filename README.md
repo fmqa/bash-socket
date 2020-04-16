@@ -59,7 +59,7 @@ pause: pause
 
 Code (`echo-server.sh`):
 
-```
+```bash
 #!/bin/bash
 set -eu
 
@@ -93,7 +93,7 @@ Hello World
 
 Code (`echo-client.sh`)
 
-```
+```bash
 #!/bin/bash
 set -eu
 
