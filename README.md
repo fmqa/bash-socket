@@ -114,3 +114,7 @@ $ bash echo-server.sh /tmp/sock &
 $ bash echo-client.sh /tmp/sock
 Hello World!
 ```
+
+## Building
+
+[bash-builtins](https://packages.ubuntu.com/bionic-updates/bash-builtins) or the equivalent package for your distro must be installed to ensure the availability of the BASH development headers. The software can built as a simple CMake project.
