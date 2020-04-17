@@ -222,6 +222,7 @@ socket_builtin(WORD_LIST *list)
         }
 
         if (connect(sockfd, (struct sockaddr *)&addr, addrlen) == -1) {
+            close(sockfd);
             builtin_error("connect: %s", strerror(errno));
             return EXECUTION_FAILURE;
         }
