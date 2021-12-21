@@ -119,4 +119,4 @@ Hello World!
 
 [bash-builtins](https://packages.ubuntu.com/bionic-updates/bash-builtins) or the equivalent package for your distro must be installed to ensure the availability of the BASH development headers. The software can built as a simple CMake project.
 
-A GitHub action is provided for automated building of deb packages, courtesy of [@jtdor](https://github.com/jtdor/)'s (build-debian-packages)[https://github.com/marketplace/actions/build-debian-packages] workflow.
+A GitHub action is provided for automated building of deb packages, courtesy of [@jtdor](https://github.com/jtdor/)'s [build-debian-packages](https://github.com/marketplace/actions/build-debian-packages) workflow.
