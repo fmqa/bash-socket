@@ -1,0 +1,18 @@
+on: push
+
+jobs:
+  build-debs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: jtdor/build-deb-action@v1
+        env:
+          DEB_BUILD_OPTIONS: noautodbgsym
+        with:
+          buildpackage-opts: --build=binary --no-sign
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: package
+          path: debian/artifacts/*
+          retention-days: 1

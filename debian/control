@@ -1,7 +1,7 @@
 Source: bash-ext-socket
 Priority: optional
 Maintainer: Fadi Moukayed <fadi.moukayed@rohde-schwarz.com>
-Build-Depends: debhelper-compat (= 11), cmake, bash-builtins
+Build-Depends: debhelper-compat (= 11), cmake, bash-builtins, pkg-config
 Standards-Version: 4.1.2
 Section: shells
 
