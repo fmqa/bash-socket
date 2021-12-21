@@ -1,3 +1,9 @@
+bash-ext-socket (1.1-1) unstable; urgency=medium
+
+  * Add pkg-config to build dependencies
+
+ -- Fadi Moukayed <fadi.moukayed@rohde-schwarz.com>  Tue, 21 Dec 2021 18:29:43 +0100
+ 
 bash-ext-socket (1.0-1) unstable; urgency=medium
 
   * Initial release
